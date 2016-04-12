@@ -1,10 +1,11 @@
 ---
 applications:
-- name: rj-cities-ui
+- name: <YOUR INITIALS>-cities-service
   memory: 512M
   instances: 1
-  path: build/libs/cities-ui.jar
+  path: build/libs/cities-service.jar
   buildpack: https://github.com/cloudfoundry/java-buildpack.git
-  services: [ rj-cities-ws ]
+  timeout: 180
+  services: [ <YOUR INITIALS>-cities-db ]
   env:
     SPRING_PROFILES_ACTIVE: cloud
