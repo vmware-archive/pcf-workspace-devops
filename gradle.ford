@@ -1,0 +1,4 @@
+systemProp.http.proxyHost=proxyvipecc.nb.ford.com
+systemProp.http.proxyPort=83
+systemProp.https.proxyHost=proxyvipecc.nb.ford.com
+systemProp.https.proxyPort=83

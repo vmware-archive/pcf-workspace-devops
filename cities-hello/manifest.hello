@@ -1,6 +1,6 @@
 ---
 applications:
-- name: cities-hello-${random-word}
+- name: cities-hello
   memory: 512M
   instances: 1
   host: cities-hello-${random-word}
