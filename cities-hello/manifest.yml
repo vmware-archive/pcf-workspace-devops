@@ -1,7 +1,7 @@
 ---
 applications:
 - name: cities-hello
-  memory: 512M
+  memory: 1G
   instances: 1
   host: cities-hello-${random-word}
   path: build/libs/cities-hello.jar
